@@ -1,28 +1,28 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const char font[]        = "monospace:size=9";
-static const char* normbgcolor  = "#222222";
-static const char* normfgcolor  = "#cccccc";
-static const char* selbgcolor   = "#555555";
-static const char* selfgcolor   = "#ffffff";
-static const char* urgbgcolor   = "#111111";
-static const char* urgfgcolor   = "#cc0000";
-static const char before[]      = "<";
-static const char after[]       = ">";
+static const char font[]        = "Iosevka Nerd Font:size=11";
+static const char* normbgcolor  = "#434c5e";
+static const char* normfgcolor  = "#d8dee9";
+static const char* selbgcolor   = "#2e3440";
+static const char* selfgcolor   = "#81a1c1";
+static const char* urgbgcolor   = "#bf616a";
+static const char* urgfgcolor   = "#2e3440";
+static const char before[]      = "";
+static const char after[]       = "";
 static const char titletrim[]   = "...";
-static const int  tabwidth      = 200;
+static const int  tabwidth      = 125;
 static const Bool foreground    = True;
 static       Bool urgentswitch  = False;
-static const int barHeight      = 24;
+static const int barHeight      = 25;
 
 /*
  * Where to place a new tab when it is opened. When npisrelative is True,
  * then the current position is changed + newposition. If npisrelative
  * is False, then newposition is an absolute position.
  */
-static int  newposition   = 0;
-static Bool npisrelative  = False;
+static int  newposition   = 1;
+static Bool npisrelative  = True;
 
 #define SETPROP(p) { \
         .v = (char *[]){ "/bin/sh", "-c", \
@@ -34,19 +34,19 @@ static Bool npisrelative  = False;
         } \
 }
 
-#define MODKEY ControlMask
+#define MODKEY Mod1Mask
 static Key keys[] = {
 	/* modifier             key        function     argument */
 	{ MODKEY|ShiftMask,     XK_Return, focusonce,   { 0 } },
 	{ MODKEY|ShiftMask,     XK_Return, spawn,       { 0 } },
 
-	{ MODKEY|ShiftMask,     XK_l,      rotate,      { .i = +1 } },
-	{ MODKEY|ShiftMask,     XK_h,      rotate,      { .i = -1 } },
-	{ MODKEY|ShiftMask,     XK_j,      movetab,     { .i = -1 } },
-	{ MODKEY|ShiftMask,     XK_k,      movetab,     { .i = +1 } },
+	{ MODKEY,               XK_l,      rotate,      { .i = +1 } },
+	{ MODKEY,               XK_h,      rotate,      { .i = -1 } },
+	{ MODKEY|ShiftMask,     XK_h,      movetab,     { .i = -1 } },
+	{ MODKEY|ShiftMask,     XK_l,      movetab,     { .i = +1 } },
 	{ MODKEY,               XK_Tab,    rotate,      { .i = 0 } },
 
-	{ MODKEY,               XK_grave,  spawn,       SETPROP("_TABBED_SELECT_TAB") },
+	{ MODKEY,               XK_Escape, spawn,       SETPROP("_TABBED_SELECT_TAB") },
 	{ MODKEY,               XK_1,      move,        { .i = 0 } },
 	{ MODKEY,               XK_2,      move,        { .i = 1 } },
 	{ MODKEY,               XK_3,      move,        { .i = 2 } },
@@ -58,10 +58,10 @@ static Key keys[] = {
 	{ MODKEY,               XK_9,      move,        { .i = 8 } },
 	{ MODKEY,               XK_0,      move,        { .i = 9 } },
 
-	{ MODKEY,               XK_q,      killclient,  { 0 } },
+	{ MODKEY|ShiftMask,     XK_q,      killclient,  { 0 } },
 
-	{ MODKEY,               XK_u,      focusurgent, { 0 } },
-	{ MODKEY|ShiftMask,     XK_u,      toggle,      { .v = (void*) &urgentswitch } },
+	{ MODKEY,               XK_x,      focusurgent, { 0 } },
+	{ MODKEY|ShiftMask,     XK_x,      toggle,      { .v = (void*) &urgentswitch } },
 
 	{ 0,                    XK_F11,    fullscreen,  { 0 } },
 };
