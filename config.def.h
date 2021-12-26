@@ -1,13 +1,13 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const char font[]        = "Iosevka Nerd Font:size=11";
-static const char* normbgcolor  = "#434c5e";
-static const char* normfgcolor  = "#d8dee9";
-static const char* selbgcolor   = "#2e3440";
-static const char* selfgcolor   = "#81a1c1";
-static const char* urgbgcolor   = "#bf616a";
-static const char* urgfgcolor   = "#2e3440";
+static const char font[]        = "InconsolataGo Nerd Font:size=11:antialias=true:autohint=true";
+static const char* normbgcolor  = "#192e40";
+static const char* normfgcolor  = "#fff6e6";
+static const char* selbgcolor   = "#0b1726";
+static const char* selfgcolor   = "#e9986d";
+static const char* urgbgcolor   = "#c20f47";
+static const char* urgfgcolor   = "#0b1726";
 static const char before[]      = "";
 static const char after[]       = "";
 static const char titletrim[]   = "...";
