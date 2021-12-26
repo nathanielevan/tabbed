@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const char font[]        = "InconsolataGo Nerd Font:size=11:antialias=true:autohint=true";
+static const char font[]        = "Iosevka Nerd Font:size=11:antialias=true:autohint=true";
 static const char* normbgcolor  = "#192e40";
 static const char* normfgcolor  = "#fff6e6";
 static const char* selbgcolor   = "#0b1726";
