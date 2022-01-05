@@ -56,7 +56,7 @@ static Key keys[] = {
 	{ MODKEY,               XK_7,      move,        { .i = 6 } },
 	{ MODKEY,               XK_8,      move,        { .i = 7 } },
 	{ MODKEY,               XK_9,      move,        { .i = 8 } },
-	// { MODKEY,               XK_0,      move,        { .i = 9 } }, // already used to reset zoom in st
+	{ MODKEY,               XK_0,      move,        { .i = 9 } },
 
 	{ MODKEY|ShiftMask,     XK_q,      killclient,  { 0 } },
 
