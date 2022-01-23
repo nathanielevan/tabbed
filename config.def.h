@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const char font[]        = "Iosevka Nerd Font:size=11:antialias=true:autohint=true";
+static const char font[]        = "FantasqueSansMono Nerd Font:size=10:antialias=true:autohint=true";
 static const char* normbgcolor  = "#192e40";
 static const char* normfgcolor  = "#fff6e6";
 static const char* selbgcolor   = "#0b1726";
@@ -14,7 +14,7 @@ static const char titletrim[]   = "...";
 static const int  tabwidth      = 125;
 static const Bool foreground    = True;
 static       Bool urgentswitch  = False;
-static const int barHeight      = 25;
+static const int barHeight      = 24;
 
 /*
  * Where to place a new tab when it is opened. When npisrelative is True,
