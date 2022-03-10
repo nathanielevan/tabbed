@@ -1,13 +1,13 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const char font[]        = "FantasqueSansMono Nerd Font:size=10:antialias=true:autohint=true";
-static const char* normbgcolor  = "#192e40";
-static const char* normfgcolor  = "#fff6e6";
-static const char* selbgcolor   = "#0b1726";
-static const char* selfgcolor   = "#e9986d";
-static const char* urgbgcolor   = "#c20f47";
-static const char* urgfgcolor   = "#0b1726";
+static const char font[]        = "FantasqueSansMono Nerd Font Mono:pixelsize=14:antialias=true:autohint=true";
+static const char* normbgcolor  = "#32302f";
+static const char* normfgcolor  = "#928374";
+static const char* selbgcolor   = "#282828";
+static const char* selfgcolor   = "#d8a657";
+static const char* urgbgcolor   = "#ea6962";
+static const char* urgfgcolor   = "#282828";
 static const char before[]      = "";
 static const char after[]       = "";
 static const char titletrim[]   = "...";
