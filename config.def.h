@@ -1,7 +1,8 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const char font[]        = "MesloLGM Nerd Font Mono:pixelsize=12:antialias=true:autohint=true";
+static const char font[]        = "Iosevka Nerd Font Mono:pixelsize=13:antialias=true:autohint=true";
+// static const char font[]        = "MesloLGM Nerd Font Mono:pixelsize=12:antialias=true:autohint=true";
 // static const char font[]        = "FuraMono Nerd Font Mono:pixelsize=12.5:antialias=true:autohint=true";
 // static const char font[]        = "VictorMono Nerd Font Mono:pixelsize=13:antialias=true:autohint=true";
 // static const char font[]        = "FantasqueSansMono Nerd Font Mono:pixelsize=14:antialias=true:autohint=true";
