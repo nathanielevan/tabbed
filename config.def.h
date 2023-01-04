@@ -1,11 +1,14 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const char font[]        = "Iosevka Nerd Font Mono:pixelsize=13:antialias=true:autohint=true";
-// static const char font[]        = "MesloLGM Nerd Font Mono:pixelsize=12:antialias=true:autohint=true";
-// static const char font[]        = "FuraMono Nerd Font Mono:pixelsize=12.5:antialias=true:autohint=true";
-// static const char font[]        = "VictorMono Nerd Font Mono:pixelsize=13:antialias=true:autohint=true";
-// static const char font[]        = "FantasqueSansMono Nerd Font Mono:pixelsize=14:antialias=true:autohint=true";
+// static const char font[]        = "FantasqueSansMono Nerd Font:pixelsize=14:antialias=true:autohint=true";
+// static const char font[]        = "FuraMono Nerd Font:pixelsize=12:antialias=true:autohint=true";
+// static const char font[]        = "InconsolataLGC Nerd Font:pixelsize=12:antialias=true:autohint=true";
+// static const char font[]        = "Input Nerd Font:pixelsize=12:antialias=true:autohint=true";
+static const char font[]        = "Iosevka Nerd Font:pixelsize=13:antialias=true:autohint=true";
+// static const char font[]        = "JetBrainsMono Nerd Font:pixelsize=12:antialias=true:autohint=true";
+// static const char font[]        = "MesloLGM Nerd Font:pixelsize=12:antialias=true:autohint=true";
+// static const char font[]        = "VictorMono Nerd Font:pixelsize=13:antialias=true:autohint=true";
 static const char* normbgcolor  = "#32302f";
 static const char* normfgcolor  = "#928374";
 static const char* selbgcolor   = "#282828";
