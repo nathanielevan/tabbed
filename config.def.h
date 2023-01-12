@@ -8,6 +8,7 @@
 static const char font[]        = "Iosevka Nerd Font:pixelsize=13:antialias=true:autohint=true";
 // static const char font[]        = "JetBrainsMono Nerd Font:pixelsize=12:antialias=true:autohint=true";
 // static const char font[]        = "MesloLGM Nerd Font:pixelsize=12:antialias=true:autohint=true";
+// static const char font[]        = "mononoki Nerd Font:pixelsize=13:antialias=true:autohint=true";
 // static const char font[]        = "VictorMono Nerd Font:pixelsize=13:antialias=true:autohint=true";
 static const char* normbgcolor  = "#32302f";
 static const char* normfgcolor  = "#928374";
