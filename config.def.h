@@ -23,7 +23,7 @@ static const char titletrim[]   = "...";
 static const int  tabwidth      = 125;
 static const Bool foreground    = True;
 static       Bool urgentswitch  = False;
-static const int barHeight      = 24;
+static const int barHeight      = 21;
 
 /*
  * Where to place a new tab when it is opened. When npisrelative is True,
