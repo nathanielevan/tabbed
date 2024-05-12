@@ -6,7 +6,7 @@
 // static const char font[]        = "FiraCode Nerd Font Propo:pixelsize=12:antialias=true:autohint=true";
 // static const char font[]        = "Hack Nerd Font Propo:pixelsize=12:antialias=true:autohint=true";
 // static const char font[]        = "Inconsolata LGC Nerd Font Propo:pixelsize=12:antialias=true:autohint=true";
-static const char font[]        = "Iosevka Nerd Font Propo:pixelsize=13:antialias=true:autohint=true";
+static const char font[]        = "IosevkaCustom Nerd Font Propo:pixelsize=13:antialias=true:autohint=true";
 // static const char font[]        = "JetBrainsMono Nerd Font Propo:pixelsize=12:antialias=true:autohint=true";
 // static const char font[]        = "NotoSansM Nerd Font Propo:pixelsize=12:antialias=true:autohint=true";
 static const char* normbgcolor  = "#32302f";
