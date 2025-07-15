@@ -1,14 +1,14 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-// static const char font[]        = "DMCASansSerif Nerd Font Propo:pixelsize=13:antialias=true:autohint=true";
-// static const char font[]        = "FantasqueSansM Nerd Font Propo:pixelsize=13:antialias=true:autohint=true";
-// static const char font[]        = "FiraCode Nerd Font Propo:pixelsize=12:antialias=true:autohint=true";
-// static const char font[]        = "Hack Nerd Font Propo:pixelsize=12:antialias=true:autohint=true";
-// static const char font[]        = "Inconsolata LGC Nerd Font Propo:pixelsize=12:antialias=true:autohint=true";
-static const char font[]        = "IosevkaCustom Nerd Font Propo:pixelsize=13:antialias=true:autohint=true";
-// static const char font[]        = "JetBrainsMono Nerd Font Propo:pixelsize=12:antialias=true:autohint=true";
-// static const char font[]        = "NotoSansM Nerd Font Propo:pixelsize=12:antialias=true:autohint=true";
+// static const char font[]        = "DMCA Sans Serif:pixelsize=13:antialias=true:autohint=true";
+// static const char font[]        = "Fantasque Sans Mono:pixelsize=13:antialias=true:autohint=true";
+// static const char font[]        = "Fira Code:pixelsize=12:antialias=true:autohint=true";
+// static const char font[]        = "Hack:pixelsize=12:antialias=true:autohint=true";
+// static const char font[]        = "Inconsolata LGC:pixelsize=12:antialias=true:autohint=true";
+static const char font[]        = "Iosevka Custom:pixelsize=13:antialias=true:autohint=true";
+// static const char font[]        = "JetBrains Mono NL:pixelsize=12:antialias=true:autohint=true";
+// static const char font[]        = "Noto Sans Mono:pixelsize=12:antialias=true:autohint=true";
 static const char* normbgcolor  = "#3c3836";
 static const char* normfgcolor  = "#928374";
 static const char* selbgcolor   = "#282828";
