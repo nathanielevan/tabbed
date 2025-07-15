@@ -9,11 +9,11 @@
 static const char font[]        = "IosevkaCustom Nerd Font Propo:pixelsize=13:antialias=true:autohint=true";
 // static const char font[]        = "JetBrainsMono Nerd Font Propo:pixelsize=12:antialias=true:autohint=true";
 // static const char font[]        = "NotoSansM Nerd Font Propo:pixelsize=12:antialias=true:autohint=true";
-static const char* normbgcolor  = "#32302f";
+static const char* normbgcolor  = "#3c3836";
 static const char* normfgcolor  = "#928374";
 static const char* selbgcolor   = "#282828";
-static const char* selfgcolor   = "#d8a657";
-static const char* urgbgcolor   = "#ea6962";
+static const char* selfgcolor   = "#d79921";
+static const char* urgbgcolor   = "#cc241d";
 static const char* urgfgcolor   = "#282828";
 static const char before[]      = "";
 static const char after[]       = "";
