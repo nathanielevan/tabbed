@@ -1,13 +1,13 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-// static const char font[]        = "DMCA Sans Serif:pixelsize=13:antialias=true:autohint=true";
 // static const char font[]        = "Fantasque Sans Mono:pixelsize=13:antialias=true:autohint=true";
 // static const char font[]        = "Fira Code:pixelsize=12:antialias=true:autohint=true";
-// static const char font[]        = "Hack:pixelsize=12:antialias=true:autohint=true";
+static const char font[]        = "Hack:pixelsize=12:antialias=true:autohint=true";
 // static const char font[]        = "Inconsolata LGC:pixelsize=12:antialias=true:autohint=true";
-static const char font[]        = "Iosevka Custom:pixelsize=13:antialias=true:autohint=true";
+// static const char font[]        = "Iosevka Custom:pixelsize=13:antialias=true:autohint=true";
 // static const char font[]        = "JetBrains Mono NL:pixelsize=12:antialias=true:autohint=true";
+// static const char font[]        = "Maple Mono:pixelsize=12:antialias=true:autohint=true";
 // static const char font[]        = "Noto Sans Mono:pixelsize=12:antialias=true:autohint=true";
 static const char* normbgcolor  = "#3c3836";
 static const char* normfgcolor  = "#928374";
